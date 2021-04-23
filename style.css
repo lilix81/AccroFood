@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+body {
+	background-color: rgb(229 255 14 / 15%);
+	font-family: 'Orelega One', cursive;
+}
+
+.banner {
+background-image: linear-gradient(179deg, rgba(109,92,7,0) 0%, rgba(107,99,58,0.36) 31%), url(../images/banner.jpg);
+height: 35vh;
+background-size: cover;
+background-position-y: center;
+background-repeat: no-repeat;
+}
+
+.banner h1 {
+	color: white;
+	margin-top: 0;
+	text-align: center;
+}
+
+.banner h2 {
+	color: white;
+	margin-top: 0;
+	text-align: center;
+}
+
+h1 {
+	padding-top: 55px
+}
+
+.slider-content {
+    z-index: 100;
+    text-align: center;
+    background-color: #00800078;
+    padding: 2px 40px;
+    margin-top: 1vh;
+    border-radius: 1vh
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 5px;
+
+}
+.card {
+	width: 250px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #00800078;
+	padding: 8px;
+	border-radius: 7px;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 30%);
+}
+
+.card img {
+height: 150px;
+}
+
+.slider-content  h2, h3 {
+	color: white;
+}
+
+#btn-blue {
+	background-color: #85c374;
+	color: white;
+	text-decoration: none;
+	padding: 16px;
+	border-radius: 7px;
+	border: 1px solid #85c374;
+	display: block;
+	width: 150px;
+	margin: 16px auto;
+	text-align: center;
+}
+
+#btn-blue:hover {
+	background-color: #ffd3001f;
+	color: #85c374;
+}
+
+.footer {
+	text-align: center;
+	background-color: white;
+	color: green;
+	padding: 40px;
+}
+
+.navbar {
+	background-color: #fafcdb;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navbar img {
+width: 10%;
+padding: 16px;
+}
+
+.links {
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.navbar a:-webkit-any-link {
+    color: green;
+    cursor: pointer;
+    text-decoration: none;
+}
+
